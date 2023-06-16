@@ -1,7 +1,6 @@
 {
-  "name": "pandora-cloud",
   "version": 2,
-  "framework": null,
+  "name": "pandora-cloud",
   "builds": [
     {
       "src": "main.py",
@@ -16,5 +15,10 @@
   ],
   "env": {
     "PANDORA_SERVER_LISTEN": "false"
+  },
+  "frameworks": {
+    "node": {
+      "version": "14.x"
+    }
   }
 }

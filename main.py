@@ -2,7 +2,7 @@
 
 from os import getenv
 
-from pandora_cloud.server import ChatBot
+from src.pandora_cloud.server import ChatBot
 
 
 
